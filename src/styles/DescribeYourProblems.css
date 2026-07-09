@@ -1,0 +1,91 @@
+.report-container{
+    padding:50px;
+    min-height:100vh;
+    background:#f4f7fc;
+}
+
+.report-container h1{
+    color:#2563eb;
+    text-align:center;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin:15px 0 40px;
+}
+
+.report-form{
+    max-width:850px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.input-box{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:25px;
+}
+
+.input-box label{
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea{
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.voice-buttons{
+    display:flex;
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.voice-buttons button{
+    flex:1;
+    padding:15px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.submit-btn{
+    width:100%;
+    padding:16px;
+    border:none;
+    background:#16a34a;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:17px;
+}
+.location-box{
+    margin:20px 0;
+}
+
+.location-btn{
+    width:100%;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.location-btn:hover{
+    background:#1d4ed8;
+}

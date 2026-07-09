@@ -1,0 +1,173 @@
+.dashboard{
+    display:flex;
+    min-height:100vh;
+    background:#f4f7fc;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:260px;
+    background:#0f172a;
+    color:#fff;
+    padding:30px 20px;
+    position:fixed;
+    height:100vh;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#60a5fa;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar li{
+    margin:15px 0;
+}
+
+.sidebar a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:14px;
+    border-radius:10px;
+    transition:.3s;
+    font-size:16px;
+}
+
+.sidebar a:hover{
+    background:#2563eb;
+}
+
+/* Main Content */
+
+.content{
+    margin-left:260px;
+    width:100%;
+    padding:40px;
+}
+
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+.top h1{
+    font-size:34px;
+    color:#0f172a;
+}
+
+.top button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.top button:hover{
+    background:#1d4ed8;
+}
+
+/* Cards */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.card h2{
+    color:#2563eb;
+    margin-bottom:10px;
+    font-size:34px;
+}
+
+.card p{
+    color:#666;
+}
+
+/* Voice Card */
+
+.voice-card{
+    margin-top:40px;
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.voice-card h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.voice-card p{
+    color:#666;
+    line-height:28px;
+    margin-bottom:25px;
+}
+
+.voice-card button{
+    background:#16a34a;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.voice-card button:hover{
+    background:#15803d;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.sidebar{
+    display:none;
+}
+
+.content{
+    margin-left:0;
+    padding:20px;
+}
+
+.cards{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:600px){
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+.top{
+    flex-direction:column;
+    gap:20px;
+}
+
+}

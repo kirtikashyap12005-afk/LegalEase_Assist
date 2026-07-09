@@ -1,0 +1,48 @@
+.vault-container{
+    padding:50px;
+    background:#f4f7fc;
+    min-height:100vh;
+}
+
+.vault-container h1{
+    color:#2563eb;
+}
+
+.subtitle{
+    color:#666;
+    margin:10px 0 35px;
+}
+
+.upload-box{
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.upload-box input{
+    margin:25px 0;
+}
+
+.upload-box button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:14px 28px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.evidence-list{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.evidence-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
