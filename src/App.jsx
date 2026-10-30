@@ -14,7 +14,7 @@ import RightsResult from "./pages/RightsResult";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/LegalEase_Assist">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
